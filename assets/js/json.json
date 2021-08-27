@@ -3,9 +3,9 @@
         "question": "Who invented JavaScript?",
         "id":1,
         "answers": [
-            { "a": "Douglas Crockford"},
-            {"b": "Sheryl Sandberg"},
-            {"c": "Brendan Eich"}
+            ["a", ["Douglas Crockford"]],
+            ["b", ["Sheryl Sandberg"]],
+            ["c", ["Brendan Eich"]]
         ],
         "correctAnswer": "c"
     },
@@ -13,9 +13,9 @@
         "question": "Which one of these is a JavaScript package manager?",
         "id":2,
         "answers": [
-            {"a": "Node.js"},
-            {"b": "TypeScript"},
-            {"c": "npm"}
+            ["a", ["Node.js"]],
+            ["b",[ "TypeScript"]],
+            ["c", ["npm"]]
         ],
         "correctAnswer": "c"
     },
@@ -23,10 +23,11 @@
         "question": "Which tool can you use to ensure code quality?",
         "id":3,
         "answers": [
-            {"a": "Angular"},
-            {"b": "RequireJS"},
-            {"c": "ESLint"}
+            ["a", ["Angular"]],
+            ["b", ["RequireJS"]],
+            ["c", ["RequireJS"]],
+            ["d", ["ESLint"]]
         ],
-        "correctAnswer": "c"
+        "correctAnswer": "d"
     }
 ]
